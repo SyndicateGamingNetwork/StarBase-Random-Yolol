@@ -1,0 +1,5 @@
+Battery=:Battery1+:Battery2+:Battery3+:Battery4+:Battery5
+FuelRods=:StoredRawFuel1+:StoredRawFuel2+:StoredRawFuel3
+Propellant=:Gas1+:Gas2
+A=Battery B=FuelRods C=Propellant
+:Resources= "Bat\n"+A+"\nFRods\n"+B+"\nProp\n"+C+"" goto 1
